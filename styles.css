@@ -21,6 +21,8 @@ body {
     background-color: #222222;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    /* display: flex;
+    flex-direction: column; */
 }
 
 /* ... Add the rest of your CSS styles here ... */
@@ -34,7 +36,7 @@ body, h1, h2, p, ul, li {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #111111;
+    background-color:#111111;
     color: #ffffff;
     line-height: 1.6;
 }
@@ -108,6 +110,21 @@ body {
 
 #author{
     text-align: center;
-    color:aqua
+    color:aqua;
+    margin: 0%;
 }
 
+hr{
+    border-color: grey;
+}
+
+.grading-system{
+    text-align: center;
+    
+}
+
+ul{
+    color: aqua;
+    display: inline-flex;
+    gap:60px
+}
